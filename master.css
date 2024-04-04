@@ -1,0 +1,60 @@
+* {
+  list-style: none;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+.main-menu label {
+  margin-left: 10px;
+  background-color: green;
+  color: white;
+  padding: 3px 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+}
+.main-menu select {
+  padding: 3px 10px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.main-menu form {
+  display: flex;
+}
+.main-menu div {
+  padding: 3px 10px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 6px;
+  font-size: 15px;
+}
+ul {
+  margin: 0px 30px;
+  padding-left: 0;
+  border: 3px solid green;
+}
+.salah-menu ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.salah-menu ul li:nth-child(even) {
+  background: rgb(101, 214, 101);
+  color: black;
+}
+.salah-menu ul li:not(:last-child) {
+  margin-bottom: 10px;
+}

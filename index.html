@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link rel="stylesheet" href="master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Mawaqiet Alsalah</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="main-menu">
+                <form class="city">
+                    <select id="cities">
+                        <!-- <option>الرياض</option>
+                        <option>مكة</option>
+                        <option>المدينة</option>
+                        <option>القاهرة</option>
+                        <option>العريش</option> -->
+                    </select>
+                    <label>المدينة</label>
+                </form>
+                <form class="date" id="date">
+                    <div id="days">28/2/2024</div>
+                    <!-- <select id="days">
+                        <option>28/2/2024</option>
+                    </select> -->
+                    <label>التاريخ</label>
+                </form>
+            </div>
+        </header>
+        <div class="content">
+            <div class="salah-menu">
+                <ul>
+                    <li>
+                        <span>الفجر</span>
+                        <span id="fajr">م 4:46</span>
+                    </li>
+                    <li>
+                        <span>الشروق</span>
+                        <span id="sunrise">م 6:13</span>
+                    </li>
+                    <li>
+                        <span>الظهر</span>
+                        <span id="duhr">م 11:58</span>
+                    </li>
+                    <li>
+                        <span>العصر</span>
+                        <span id="asr">م 3:14</span>
+                    </li>
+                    <li>
+                        <span>المغرب</span>
+                        <span id="maghrib">م 5:42</span>
+                    </li>
+                    <li>
+                        <span>العشاء</span>
+                        <span id="isha">م 7:00</span>
+                    </li </ul>
+            </div>
+        </div>
+    </div>
+    <script src="main4.js"></script>
+    <!-- <script src="main3.js"></script> -->
+    <!-- <script src="main2.js"></script> -->
+    <!-- <script src="main.js"></script> -->
+</body>
+
+</html>
